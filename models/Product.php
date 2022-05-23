@@ -1,23 +1,26 @@
 <?php 
 class Product{
     public $id;
-    public $photo;
     public $title;
-    public $price;
-    function __construct($id, $photo, $title, $price) {
+    public $year;
+    public $year;
+    function __construct($id, $title, $year, $photo, $description, $know, $information) {
         $this->id = $id;
-        $this->photo = $photo;
         $this->title = $title;
-        $this->price = $price;
+        $this->year = $year;
+        $this->photo = $photo;
+        $this->description = $description;
+        $this->know = $know;
+        $this->information = $information;
     }
     function create(){
         $db = new Database();
         try {
-            $stmt = $db->conn->prepare("INSERT INTO products (photo, title, price)
-            VALUES (:photo, :title, :price);");
+            $stmt = $db->conn->prepare("INSERT INTO products (photo, title, year)
+            VALUES (:photo, :title, :year);");
             $stmt->bindParam(':photo', $this->photo);
             $stmt->bindParam(':title', $this->title);
-            $stmt->bindParam(':price', $this->price);
+            $stmt->bindParam(':year', $this->year);
             $stmt->execute();
             $id = $db->conn->lastInsertId();
             return $id;
@@ -43,11 +46,11 @@ class Product{
     function update(){
         $db = new Database();
         try {
-            $stmt = $db->conn->prepare("UPDATE products SET photo = :photo, title = :title, price = :price WHERE id = :id;");
+            $stmt = $db->conn->prepare("UPDATE products SET photo = :photo, title = :title, year = :year WHERE id = :id;");
             $stmt->bindParam(':id', $this->id);
             $stmt->bindParam(':photo', $this->photo);
             $stmt->bindParam(':title', $this->title);
-            $stmt->bindParam(':price', $this->price);
+            $stmt->bindParam(':year', $this->year);
             $stmt->execute();
             return true;
         }catch(PDOException $e) {

@@ -1,0 +1,76 @@
+[
+  {
+    "_id": "8d04d13b-cfec-4c19-8f56-61fde4eff202",
+    "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
+    "containerId": "",
+    "name": "user/select-all",
+    "url": "http://localhost/lp2/api/user/select-all",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-05-23T19:24:35.244Z",
+    "modified": "2022-05-23T19:24:35.244Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "27e59894-d613-44cd-b8d9-d54d038c23d1",
+    "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
+    "containerId": "",
+    "name": "user/update",
+    "url": "http://localhost/lp2/api/user/update",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-05-23T19:46:23.052Z",
+    "modified": "2022-05-23T19:46:23.052Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "1"
+        },
+        {
+          "name": "name",
+          "value": "maria"
+        },
+        {
+          "name": "email",
+          "value": "maria@gmail.com"
+        },
+        {
+          "name": "pass",
+          "value": "123123"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "65d4a8e2-8b62-4ab9-a51f-7c27c27c25d1",
+    "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
+    "containerId": "",
+    "name": "user/delete",
+    "url": "http://localhost/lp2/api/user/delete",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-05-23T19:49:26.736Z",
+    "modified": "2022-05-23T19:49:26.736Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "5"
+        }
+      ]
+    },
+    "tests": []
+  }
+]

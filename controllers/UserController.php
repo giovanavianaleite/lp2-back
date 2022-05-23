@@ -66,6 +66,5 @@ class UserController{
         $result = $user->selectById();
         $response->out($result);
     }
-
 }
 ?>

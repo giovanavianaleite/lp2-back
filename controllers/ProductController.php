@@ -9,19 +9,26 @@ class ProductController{
         $user_session = $auth->allowedRole('admin');
 
         //Entradas
-        $photo = $_POST['photo'];
         $title = $_POST['title'];
-        $price = $_POST['price'];
+        $year = $_POST['year'];
+        $photo = $_POST['photo'];
+        $photo = $_POST['description'];
+        $photo = $_POST['know'];
+        $photo = $_POST['information'];
+        
 
         //Processamento ou Persistencia
-        $product = new Product(null, $photo, $title, $price);
+        $product = new Product(null, $photo, $title, $year);
         $id = $product->create();
         //Saída
         $result['message'] = "Produto Cadastrado com sucesso!";
         $result['product']['id'] = $id;
-        $result['product']['photo'] = $photo;
         $result['product']['title'] = $title;
-        $result['product']['price'] = $price;
+        $result['product']['year'] = $year;
+        $result['product']['photo'] = $photo;
+        $result['product']['description'] = $description;
+        $result['product']['know'] = $know;
+        $result['product']['information'] = $information;
         $response->out($result);
     }
 
