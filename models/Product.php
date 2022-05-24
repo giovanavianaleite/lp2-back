@@ -1,26 +1,33 @@
 <?php 
 class Product{
     public $id;
-    public $title;
-    public $year;
-    public $year;
-    function __construct($id, $title, $year, $photo, $description, $know, $information) {
+    public $titulo;
+    public $ano;
+    public $foto;
+    public $descricao;
+    public $saber;
+    public $informacao;
+    function __construct($id, $titulo, $ano, $foto, $descricao, $saber, $informacao) {
         $this->id = $id;
-        $this->title = $title;
-        $this->year = $year;
-        $this->photo = $photo;
-        $this->description = $description;
-        $this->know = $know;
-        $this->information = $information;
+        $this->titulo = $titulo;
+        $this->ano = $ano;
+        $this->foto = $foto;
+        $this->descricao = $descricao;
+        $this->saber = $saber;
+        $this->informacao = $informacao;
     }
     function create(){
         $db = new Database();
         try {
-            $stmt = $db->conn->prepare("INSERT INTO products (photo, title, year)
-            VALUES (:photo, :title, :year);");
-            $stmt->bindParam(':photo', $this->photo);
-            $stmt->bindParam(':title', $this->title);
-            $stmt->bindParam(':year', $this->year);
+            $stmt = $db->conn->prepare("INSERT INTO products (foto, titulo, ano)
+            VALUES (:foto, :titulo, :ano, :foto, :descricao, :saber, :informacao );");
+            $stmt->bindParam(':titulo', $this->titulo);
+            $stmt->bindParam(':ano', $this->ano);
+            $stmt->bindParam(':foto', $this->foto);
+            $stmt->bindParam(':descricao', $this->descricao);
+            $stmt->bindParam(':saber', $this->saber);
+            $stmt->bindParam(':informacao', $this->informacao);
+        
             $stmt->execute();
             $id = $db->conn->lastInsertId();
             return $id;
@@ -46,11 +53,15 @@ class Product{
     function update(){
         $db = new Database();
         try {
-            $stmt = $db->conn->prepare("UPDATE products SET photo = :photo, title = :title, year = :year WHERE id = :id;");
+            $stmt = $db->conn->prepare("UPDATE products SET foto = :foto, titulo = :titulo, ano = :ano, descricao = :descricao, saber = :saber, informacao = :informacao WHERE id = :id;");
             $stmt->bindParam(':id', $this->id);
-            $stmt->bindParam(':photo', $this->photo);
-            $stmt->bindParam(':title', $this->title);
-            $stmt->bindParam(':year', $this->year);
+            $stmt->bindParam(':foto', $this->foto);
+            $stmt->bindParam(':titulo', $this->titulo);
+            $stmt->bindParam(':ano', $this->ano);
+            $stmt->bindParam(':descricao', $this->descricao);
+            $stmt->bindParam(':saber', $this->saber);
+            $stmt->bindParam(':informacao', $this->informacao);
+
             $stmt->execute();
             return true;
         }catch(PDOException $e) {
