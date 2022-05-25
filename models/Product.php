@@ -19,8 +19,8 @@ class Product{
     function create(){
         $db = new Database();
         try {
-            $stmt = $db->conn->prepare("INSERT INTO products (foto, titulo, ano)
-            VALUES (:foto, :titulo, :ano, :foto, :descricao, :saber, :informacao );");
+            $stmt = $db->conn->prepare("INSERT INTO products (titulo, ano, foto, descricao, saber, informacao)
+            VALUES (:titulo, :ano, :foto, :descricao, :saber, :informacao );");
             $stmt->bindParam(':titulo', $this->titulo);
             $stmt->bindParam(':ano', $this->ano);
             $stmt->bindParam(':foto', $this->foto);

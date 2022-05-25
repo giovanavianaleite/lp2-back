@@ -78,7 +78,7 @@ class ProductController{
         $response = new Output();
         $response->allowedMethod('GET');
         $product = new Product(null, null, null, null, null, null, null);
-        $result = $user->selectAll();
+        $result = $product->selectAll();
         $response->out($result);
     }
 
