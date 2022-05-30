@@ -82,11 +82,11 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-05-25T18:11:31.942Z",
-    "modified": "2022-05-25T18:11:31.942Z",
+    "modified": "2022-05-30T20:42:42.582Z",
     "headers": [
       {
         "name": "ACCESS-TOKEN",
-        "value": "601f1889667efaebb33b8c12572835da3f027f78"
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
       }
     ],
     "params": [],
@@ -108,7 +108,88 @@
         },
         {
           "name": "descricao",
-          "value": "DUNA 2021, Aventura/Ficção científica, 2h 35m Diretor: Denis Villeneuve. Baseado em:\tDuna de Frank Herbert. Elenco:\tTimothée Chalamet, Rebecca Ferguson, Oscar Isaac Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling Jason Momoa, Javier Bardem."
+          "value": "DUNA 2021, Aventura/Ficção científica, 2h 35m Diretor: Denis Villeneuve. Baseado em: Duna de Frank Herbert. Elenco: Timothée Chalamet, Rebecca Ferguson, Oscar Isaac Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling Jason Momoa, Javier Bardem."
+        },
+        {
+          "name": "saber",
+          "value": "CONSENSO DOS CRÍTICOS Dune ocasionalmente luta com seu material de origem pesado, mas esses problemas são amplamente ofuscados pelo escopo e ambição desta adaptação visualmente emocionante. AUDIÊNCIA DIZ Duna , de Denis Villeneuve, parece e soa incrível – e uma vez que a história (reconhecidamente de construção lenta) o fisgue, você estará na ponta da cadeira para a sequência."
+        },
+        {
+          "name": "informacao",
+          "value": "Paul Atreides, um jovem brilhante e talentoso nascido em um grande destino além de sua compreensão, deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e seu povo. À medida que forças malévolas explodem em conflito pelo suprimento exclusivo do planeta do recurso mais precioso que existe, apenas aqueles que podem vencer seu próprio medo sobreviverão. PG-13 (Algumas Imagens Perturbadoras|Sequências de Violência Forte|Material Sugestivo) Avaliação: Gênero: Aventura, Ficção Científica Linguagem original: Ingles Diretor: Denis Villeneuve Produtor: Denis Villeneuve ,Mary Parent ,Cale Boyter ,Joseph Caracciolo Jr. Escritor: Jon Spaihts , Denis Villeneuve , Eric Roth. Data de lançamento (Cinemas): 22 de outubro de 2021 Ampla. Data de lançamento (Transmissão): 22 de outubro de 2021. Bilheteria (EUA bruto): US$ 108,3 milhões. Tempo de execução: 2h 35m Distribuidor: Imagens da Warner Bros. Mistura de som: Dolby Atmos, Dolby Digital. Proporção da tela: Escopo (2.35:1)"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "3c3d4a72-42fa-488f-87d7-5a5ccacc40c6",
+    "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
+    "containerId": "",
+    "name": "auth/login",
+    "url": "http://localhost/lp2/api/auth/login",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-05-30T19:31:34.208Z",
+    "modified": "2022-05-30T19:31:34.208Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "julio@gmail.com"
+        },
+        {
+          "name": "pass",
+          "value": "123123"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "bbb6e973-c2e1-4bca-8fe6-b9a07595ba1a",
+    "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
+    "containerId": "",
+    "name": "product/update",
+    "url": "http://localhost/lp2/api/product/update",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-05-30T20:41:19.572Z",
+    "modified": "2022-05-30T20:41:19.572Z",
+    "headers": [
+      {
+        "name": "ACCESS-TOKEN",
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "2"
+        },
+        {
+          "name": "titulo",
+          "value": "duna2"
+        },
+        {
+          "name": "ano",
+          "value": "2021"
+        },
+        {
+          "name": "foto",
+          "value": "https://i.pinimg.com/236x/0c/d7/27/0cd727eef33af1d228a91e6c92a7e849.jpg"
+        },
+        {
+          "name": "descricao",
+          "value": "DUNA 2021, Aventura/Ficção científica, 2h 35m Diretor: Denis Villeneuve. Baseado em: Duna de Frank Herbert. Elenco: Timothée Chalamet, Rebecca Ferguson, Oscar Isaac Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling Jason Momoa, Javier Bardem."
         },
         {
           "name": "saber",

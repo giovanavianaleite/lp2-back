@@ -55,9 +55,9 @@ class Product{
         try {
             $stmt = $db->conn->prepare("UPDATE products SET foto = :foto, titulo = :titulo, ano = :ano, descricao = :descricao, saber = :saber, informacao = :informacao WHERE id = :id;");
             $stmt->bindParam(':id', $this->id);
-            $stmt->bindParam(':foto', $this->foto);
             $stmt->bindParam(':titulo', $this->titulo);
             $stmt->bindParam(':ano', $this->ano);
+            $stmt->bindParam(':foto', $this->foto);
             $stmt->bindParam(':descricao', $this->descricao);
             $stmt->bindParam(':saber', $this->saber);
             $stmt->bindParam(':informacao', $this->informacao);

@@ -18,7 +18,7 @@ class ProductController{
         
 
         //Processamento ou Persistencia
-        $product = new Product(null, $foto, $titulo, $ano);
+        $product = new Product(null, $titulo, $ano, $foto, $descricao, $saber, $informacao);
         $id = $product->create();
         //Saída
         $result['message'] = "Produto Cadastrado com sucesso!";
@@ -62,7 +62,7 @@ class ProductController{
         $saber = $_POST['saber'];
         $informacao = $_POST['informacao'];
         $product = new Product($id, $titulo, $ano, $foto, $descricao, $saber, $informacao);
-        $user->update();
+        $product->update();
         $result['message'] = "Produto atualizado com sucesso!";
         $result['product']['id'] = $id;
         $result['product']['titulo'] = $titulo;

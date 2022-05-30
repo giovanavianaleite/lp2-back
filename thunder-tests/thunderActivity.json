@@ -22,7 +22,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-05-23T19:27:49.729Z",
-    "modified": "2022-05-23T19:27:49.836Z",
+    "modified": "2022-05-30T19:30:10.936Z",
     "headers": [],
     "params": [],
     "body": {
@@ -31,11 +31,11 @@
       "form": [
         {
           "name": "name",
-          "value": "giovana"
+          "value": "julio"
         },
         {
           "name": "email",
-          "value": "giovana@gmail.com"
+          "value": "julio@gmail.com"
         },
         {
           "name": "pass",
@@ -262,11 +262,11 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-05-25T17:55:12.682Z",
-    "modified": "2022-05-25T18:07:00.531Z",
+    "modified": "2022-05-30T20:42:42.586Z",
     "headers": [
       {
         "name": "ACCESS-TOKEN",
-        "value": "601f1889667efaebb33b8c12572835da3f027f78"
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
       }
     ],
     "params": [],
@@ -288,7 +288,7 @@
         },
         {
           "name": "descricao",
-          "value": "DUNA 2021, Aventura/Ficção científica, 2h 35m Diretor: Denis Villeneuve. Baseado em:\tDuna de Frank Herbert. Elenco:\tTimothée Chalamet, Rebecca Ferguson, Oscar Isaac Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling Jason Momoa, Javier Bardem."
+          "value": "DUNA 2021, Aventura/Ficção científica, 2h 35m Diretor: Denis Villeneuve. Baseado em: Duna de Frank Herbert. Elenco: Timothée Chalamet, Rebecca Ferguson, Oscar Isaac Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling Jason Momoa, Javier Bardem."
         },
         {
           "name": "saber",
@@ -297,6 +297,248 @@
         {
           "name": "informacao",
           "value": "Paul Atreides, um jovem brilhante e talentoso nascido em um grande destino além de sua compreensão, deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e seu povo. À medida que forças malévolas explodem em conflito pelo suprimento exclusivo do planeta do recurso mais precioso que existe, apenas aqueles que podem vencer seu próprio medo sobreviverão. PG-13 (Algumas Imagens Perturbadoras|Sequências de Violência Forte|Material Sugestivo) Avaliação: Gênero: Aventura, Ficção Científica Linguagem original: Ingles Diretor: Denis Villeneuve Produtor: Denis Villeneuve ,Mary Parent ,Cale Boyter ,Joseph Caracciolo Jr. Escritor: Jon Spaihts , Denis Villeneuve , Eric Roth. Data de lançamento (Cinemas): 22 de outubro de 2021 Ampla. Data de lançamento (Transmissão): 22 de outubro de 2021. Bilheteria (EUA bruto): US$ 108,3 milhões. Tempo de execução: 2h 35m Distribuidor: Imagens da Warner Bros. Mistura de som: Dolby Atmos, Dolby Digital. Proporção da tela: Escopo (2.35:1)"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c546711c-9a86-409f-af15-a24aeb29b447",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/users/selectById",
+    "url": "http://localhost/lp2/api/users/selectById",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-30T17:48:25.803Z",
+    "modified": "2022-05-30T17:48:26.023Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "608f47a9-ed63-45b7-8e9f-69747fd6c301",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/user/selectById",
+    "url": "http://localhost/lp2/api/user/selectById",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-30T17:48:30.623Z",
+    "modified": "2022-05-30T17:50:00.120Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "7a57337c-ce0e-46ac-a998-686365e7a8c5",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/user/selectById",
+    "url": "http://localhost/lp2/api/user/selectById",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-30T17:49:49.489Z",
+    "modified": "2022-05-30T17:49:49.573Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "116d02fc-3afe-4eb8-9182-5183172a5707",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/auth/login",
+    "url": "http://localhost/lp2/api/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-30T19:23:22.940Z",
+    "modified": "2022-05-30T19:31:04.301Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "julio@gmail.com"
+        },
+        {
+          "name": "pass",
+          "value": "123123"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "34c0f726-f698-484c-9ba6-17e6707ba204",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/auth/login",
+    "url": "http://localhost/lp2/api/auth/login",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-30T19:24:29.593Z",
+    "modified": "2022-05-30T19:24:29.606Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "email",
+          "value": "Giovana@gmail.com"
+        },
+        {
+          "name": "pass",
+          "value": "123123"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "caf55dfd-20e1-4c66-980a-7e6b5bfc357b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/user/create",
+    "url": "http://localhost/lp2/api/user/create",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-05-30T19:29:58.926Z",
+    "modified": "2022-05-30T19:29:58.941Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "julio"
+        },
+        {
+          "name": "email",
+          "value": "julio@gmail.com"
+        },
+        {
+          "name": "pass",
+          "value": "123123"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "0656a49f-0016-4626-ad33-bc7d5dc5726f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/product/update",
+    "url": "http://localhost/lp2/api/product/update",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-30T20:38:47.736Z",
+    "modified": "2022-05-30T20:40:48.912Z",
+    "headers": [
+      {
+        "name": "ACCESS-TOKEN",
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "2"
+        },
+        {
+          "name": "titulo",
+          "value": "duna2"
+        },
+        {
+          "name": "ano",
+          "value": "2021"
+        },
+        {
+          "name": "foto",
+          "value": "https://i.pinimg.com/236x/0c/d7/27/0cd727eef33af1d228a91e6c92a7e849.jpg"
+        },
+        {
+          "name": "descricao",
+          "value": "DUNA 2021, Aventura/Ficção científica, 2h 35m Diretor: Denis Villeneuve. Baseado em: Duna de Frank Herbert. Elenco: Timothée Chalamet, Rebecca Ferguson, Oscar Isaac Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, David Dastmalchian Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling Jason Momoa, Javier Bardem."
+        },
+        {
+          "name": "saber",
+          "value": "CONSENSO DOS CRÍTICOS Dune ocasionalmente luta com seu material de origem pesado, mas esses problemas são amplamente ofuscados pelo escopo e ambição desta adaptação visualmente emocionante. AUDIÊNCIA DIZ Duna , de Denis Villeneuve, parece e soa incrível – e uma vez que a história (reconhecidamente de construção lenta) o fisgue, você estará na ponta da cadeira para a sequência."
+        },
+        {
+          "name": "informacao",
+          "value": "Paul Atreides, um jovem brilhante e talentoso nascido em um grande destino além de sua compreensão, deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e seu povo. À medida que forças malévolas explodem em conflito pelo suprimento exclusivo do planeta do recurso mais precioso que existe, apenas aqueles que podem vencer seu próprio medo sobreviverão. PG-13 (Algumas Imagens Perturbadoras|Sequências de Violência Forte|Material Sugestivo) Avaliação: Gênero: Aventura, Ficção Científica Linguagem original: Ingles Diretor: Denis Villeneuve Produtor: Denis Villeneuve ,Mary Parent ,Cale Boyter ,Joseph Caracciolo Jr. Escritor: Jon Spaihts , Denis Villeneuve , Eric Roth. Data de lançamento (Cinemas): 22 de outubro de 2021 Ampla. Data de lançamento (Transmissão): 22 de outubro de 2021. Bilheteria (EUA bruto): US$ 108,3 milhões. Tempo de execução: 2h 35m Distribuidor: Imagens da Warner Bros. Mistura de som: Dolby Atmos, Dolby Digital. Proporção da tela: Escopo (2.35:1)"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2b2eb232-8f2e-487d-b50b-6f0341605dc9",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2/api/product/delete",
+    "url": "http://localhost/lp2/api/product/delete",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-05-30T20:46:01.693Z",
+    "modified": "2022-05-30T20:46:26.831Z",
+    "headers": [
+      {
+        "name": "ACCESS-TOKEN",
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "2"
         }
       ]
     },
