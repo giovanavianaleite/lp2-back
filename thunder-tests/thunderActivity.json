@@ -524,11 +524,11 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-05-30T20:46:01.693Z",
-    "modified": "2022-05-31T20:10:42.866Z",
+    "modified": "2022-06-01T19:51:42.501Z",
     "headers": [
       {
         "name": "ACCESS-TOKEN",
-        "value": "c621ed7b2abc4b47f6cf56d290a3a16a"
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
       }
     ],
     "params": [],
@@ -538,8 +538,7 @@
       "form": [
         {
           "name": "id",
-          "value": "5",
-          "isDisabled": true
+          "value": "5"
         }
       ]
     },
@@ -676,6 +675,64 @@
           "name": "id",
           "value": "5",
           "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "70065ec7-28d4-4cdf-9ca8-ad6e5695ef8a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2-back/api/product/delete",
+    "url": "http://localhost/lp2-back/api/product/delete",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-01T19:54:57.812Z",
+    "modified": "2022-06-01T19:58:24.868Z",
+    "headers": [
+      {
+        "name": "ACCESS-TOKEN",
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "5"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "91763ba1-bb3c-4551-8b30-9fd8d8541993",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2-back/product/delete",
+    "url": "http://localhost/lp2-back/product/delete",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-01T19:55:34.389Z",
+    "modified": "2022-06-01T19:55:34.402Z",
+    "headers": [
+      {
+        "name": "ACCESS-TOKEN",
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "5"
         }
       ]
     },
