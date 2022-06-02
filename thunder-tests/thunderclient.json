@@ -18,11 +18,11 @@
     "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
     "containerId": "",
     "name": "user/update",
-    "url": "http://localhost/lp2/api/user/update",
+    "url": "http://localhost/lp2-back/api/user/update",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-05-23T19:46:23.052Z",
-    "modified": "2022-05-23T19:46:23.052Z",
+    "modified": "2022-06-02T18:24:49.490Z",
     "headers": [],
     "params": [],
     "body": {
@@ -78,11 +78,11 @@
     "colId": "728aab65-18e1-4a95-98a0-e8abe79f9a4c",
     "containerId": "",
     "name": "product/create",
-    "url": "http://localhost/lp2/api/product/create",
+    "url": "http://localhost/lp2-back/api/product/create",
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-05-25T18:11:31.942Z",
-    "modified": "2022-05-31T20:07:56.948Z",
+    "modified": "2022-06-02T18:26:04.301Z",
     "headers": [
       {
         "name": "ACCESS-TOKEN",

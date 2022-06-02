@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL_API','/lp2/api/');
+define('BASE_URL_API','/lp2-back/api/');
 
 //Database Config
 define('DB_HOST','localhost');
