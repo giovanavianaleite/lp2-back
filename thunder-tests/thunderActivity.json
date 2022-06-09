@@ -783,7 +783,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-06-02T18:26:04.125Z",
-    "modified": "2022-06-06T19:25:27.544Z",
+    "modified": "2022-06-09T19:54:37.578Z",
     "headers": [
       {
         "name": "ACCESS-TOKEN",
@@ -797,27 +797,27 @@
       "form": [
         {
           "name": "titulo",
-          "value": "Top Gun: Maverick"
+          "value": "Capitão América Guerra Civil"
         },
         {
           "name": "ano",
-          "value": "2022"
+          "value": "2016"
         },
         {
           "name": "foto",
-          "value": "https://resizing.flixster.com/gJCMKYfkn7XFQ4qMVaFyAlFxHNo=/206x305/v2/https://resizing.flixster.com/4LOnSrFH-AbN_4BwC7kVTo6qtGg=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzU1OWIwMWQwLWYyZDItNDk4Yi04MDIxLWI3OTJlNDI1NjA3NS5qcGc="
+          "value": "https://resizing.flixster.com/1vJbfjmK1CCABLLIS9tU3nEL0bo=/206x305/v2/https://resizing.flixster.com/WuTR5KccDVIly7EOv6TuaJ2Jidg=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzllZThmOGM5LTVjZmUtNDQ5Yy04ZjdjLTcyOWEzZWI0N2FlZC53ZWJw"
         },
         {
           "name": "descricao",
-          "value": "2022, Action/Adventure, 2h 11m. Elenco e Equipe: Tom Cruise, Miles Teller, Jennifer Connelly, Jon Hamm, Glen Powell, Lewis Pullman."
+          "value": "2016, Fantasia/Aventura, 2h 26m. Elenco e Equipe: Chris Evans, Robert Downey Jr., Scarlett Johansoon, Sebastian Stan, Anthony Mackie, Don Cheadle."
         },
         {
           "name": "saber",
-          "value": "CONSENSO DOS CRÍTICOS Top Gun: Maverick realiza um feito ainda mais complicado do que um mergulho invertido 4G, entregando uma sequência muito atrasada que supera seu antecessor em um estilo extremamente divertido."
+          "value": "CONSENSO DOS CRÍTICOS Capitão América: Guerra Civil inicia a próxima onda de filmes da Marvel com um blockbuster de super-heróis repleto de ação, com um enredo decididamente não-desenho e a coragem de explorar temas instigantes."
         },
         {
           "name": "informacao",
-          "value": "Depois de mais de trinta anos de serviço como um dos principais aviadores da Marinha, Pete “Maverick” Mitchell (Tom Cruise) está onde ele pertence, empurrando o envelope como um corajoso piloto de testes e evitando o avanço na classificação que o colocaria no chão. Quando ele se encontra treinando um destacamento de graduados do Top Gun para uma missão especializada como nenhum piloto vivo jamais viu, Maverick encontra o tenente Bradley Bradshaw (Miles Teller), indicativo de chamada: \"Galo\", filho do falecido amigo de Maverick. e o oficial de interceptação de radar tenente Nick Bradshaw, também conhecido como “Goose”. Enfrentando um futuro incerto e confrontando os fantasmas de seu passado, Maverick é arrastado para um confronto com seus próprios medos mais profundos, culminando em uma missão que exige o sacrifício final daqueles que serão escolhidos para voar. Avaliação:\tPG-13 (Alguma Linguagem Forte | Sequências de Ação Intensa) Gênero:\tAção E Aventura Linguagem original:\tInglês Diretor:\tJoseph Kosinski Produtor:\tJerry Bruckheimer , Tom Cruise , Christopher McQuarrie , David Ellison Escritor:\tEhren Kruger , Eric Warren Singer , Christopher McQuarrie Data de lançamento (cinemas):\t27 de maio de 2022 Largo Tempo de execução:\t2h 11m Distribuidor:\tfilmes Paramount Mistura de som:\tDolby Digital, Dolby Atmos Proporção da tela:\tEscopo (2.35:1)"
+          "value": "A pressão política aumenta para instalar um sistema de responsabilização quando as ações dos Vingadores levam a danos colaterais. O novo status quo divide profundamente os membros da equipe. Capitão América (Chris Evans) acredita que os super-heróis devem permanecer livres para defender a humanidade sem interferência do governo. Homem de Ferro (Robert Downey Jr.) discorda fortemente e apoia a supervisão. À medida que o debate se transforma em uma briga total, a Viúva Negra (Scarlett Johansson) e o Gavião Arqueiro (Jeremy Renner) devem escolher um lado. Avaliação:\tPG-13 (Sequências Estendidas de Violência | Ação e Desordem) Gênero:\tFantasia, Aventura, Ação Linguagem original:\tInglês Diretor:\tAnthony Russo , Joe Russo Produtor:\tKevin Feige Escritor:\tChristopher Markus , Stephen McFeely Data de lançamento (cinemas):\t6 de maio de 2016 Largo Data de lançamento (transmissão):\t13 de setembro de 2016 Bilheteria (EUA bruto):\tUS$ 408,1 milhões Tempo de execução:\t2h 26m Distribuidor:\tWalt Disney Mistura de som:\tDolby Atmos, Dolby Digital"
         }
       ]
     },

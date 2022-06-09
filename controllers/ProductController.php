@@ -41,7 +41,7 @@ class ProductController{
 
         $id = $_POST['id'];
         $product = new Product($id, null, null, null, null, null, null);
-        $user->delete();
+        $product->delete();
         $result['message'] = "User deletado com sucesso!";
         $result['product']['id'] = $id;
         $response->out($result);
