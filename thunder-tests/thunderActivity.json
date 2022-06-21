@@ -689,7 +689,7 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-06-01T19:54:57.812Z",
-    "modified": "2022-06-01T20:01:42.819Z",
+    "modified": "2022-06-21T17:55:19.126Z",
     "headers": [
       {
         "name": "ACCESS-TOKEN",
@@ -703,7 +703,7 @@
       "form": [
         {
           "name": "id",
-          "value": "5"
+          "value": "25"
         }
       ]
     },
@@ -1120,6 +1120,35 @@
         {
           "name": "informacao",
           "value": "Paul Atreides, um jovem brilhante e talentoso nascido em um grande destino além de sua compreensão, deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e seu povo. À medida que forças malévolas explodem em conflito pelo suprimento exclusivo do planeta do recurso mais precioso que existe, apenas aqueles que podem vencer seu próprio medo sobreviverão. PG-13 (Algumas Imagens Perturbadoras|Sequências de Violência Forte|Material Sugestivo) Avaliação: Gênero: Aventura, Ficção Científica Linguagem original: Ingles Diretor: Denis Villeneuve Produtor: Denis Villeneuve ,Mary Parent ,Cale Boyter ,Joseph Caracciolo Jr. Escritor: Jon Spaihts , Denis Villeneuve , Eric Roth. Data de lançamento (Cinemas): 22 de outubro de 2021 Ampla. Data de lançamento (Transmissão): 22 de outubro de 2021. Bilheteria (EUA bruto): US$ 108,3 milhões. Tempo de execução: 2h 35m Distribuidor: Imagens da Warner Bros. Mistura de som: Dolby Atmos, Dolby Digital. Proporção da tela: Escopo (2.35:1)"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "d3b27f81-4a8b-4b4d-bd38-7d213b596618",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost/lp2-back/api/product/delete",
+    "url": "http://localhost/lp2-back/api/product/delete",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-21T17:55:09.590Z",
+    "modified": "2022-06-21T17:55:10.663Z",
+    "headers": [
+      {
+        "name": "ACCESS-TOKEN",
+        "value": "c621ed7b2abc4b47f6cf56d290a3a16a "
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "id",
+          "value": "25"
         }
       ]
     },

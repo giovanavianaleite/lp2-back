@@ -6,7 +6,7 @@ class ProductController{
         $response->allowedMethod('POST');
 
         $auth = new Auth();
-        $user_session = $auth->allowedRole('admin');
+        //$user_session = $auth->allowedRole('admin');
 
         //Entradas
         $titulo = $_POST['titulo'];
@@ -37,12 +37,12 @@ class ProductController{
         $response->allowedMethod('POST');
 
         $auth = new Auth();
-        $user_session = $auth->allowedRole('admin');
+        //$user_session = $auth->allowedRole('admin');
 
         $id = $_POST['id'];
         $product = new Product($id, null, null, null, null, null, null);
         $product->delete();
-        $result['message'] = "User deletado com sucesso!";
+        $result['message'] = "Filme deletado com sucesso!";
         $result['product']['id'] = $id;
         $response->out($result);
     }
@@ -52,7 +52,7 @@ class ProductController{
         $response->allowedMethod('POST');
 
         $auth = new Auth();
-        $user_session = $auth->allowedRole('admin');
+        //$user_session = $auth->allowedRole('admin');
 
         $id = $_POST['id'];
         $titulo = $_POST['titulo'];
